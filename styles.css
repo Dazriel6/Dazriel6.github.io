@@ -1,5 +1,34 @@
-body{
-        font-family: Arial, sans-serif;
-        font-size: 10pt;
-        color: #f00;
-    }
+body {
+    display: flex;
+    justify-content: center;
+}
+.content{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        background-color: aqua;
+}
+
+.navBar{
+    
+    height: 55px;
+    width: 750px;
+}
+.navigationBar{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barElements{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 80px;
+    border: 1px solid red;
+}
