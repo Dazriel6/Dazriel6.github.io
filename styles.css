@@ -1,18 +1,39 @@
+/* Globales */
+
+:root{
+    --Text-Color-Primary: white; 
+    --Color-Primary: #9956EA;
+    --Color-Sec: #AC44D4;
+    --Thirt-Color: #F54FF6;
+    --Fourth-Color: #5D44D4;
+    --Fifth-Color: #4F5EF6;
+
+}
+
 body {
     display: flex;
     justify-content: center;
+    background-color: #0E0414;
+    text-decoration: none;
 }
+
 .content{
         display: flex;
         justify-content: center;
-        width: 70%;
-        background-color: aqua;
+        width: 100%;
+        /* background-color: aqua; */
 }
+
+/* Fin globales */
+
+/* Barra de navegación */
 
 .navBar{
     
     height: 55px;
-    width: 750px;
+    width: 1000px;
+    background-color: aqua;
+    
 }
 .navigationBar{
     display: flex;
@@ -28,7 +49,23 @@ body {
     display: flex;
     padding: 0;
     margin: 0;
+    background-color: var(--Fifth-Color);
     justify-content: center;
-    width: 80px;
-    border: 1px solid red;
+    width: 105px;
+    height: 45px;
+    align-items: center;
 }
+
+a{
+    text-decoration: none;
+    color:var(--Text-Color-Primary);
+}
+
+a:visited{
+    color: var(--Text-Color-Primary);
+
+}
+
+
+
+/* Fin de barra de navegación */
